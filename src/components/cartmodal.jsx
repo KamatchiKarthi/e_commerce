@@ -81,14 +81,14 @@ const Cartmodel = ({
           >
             Total Price: ${totalprice}
           </h3>
-          <button
-            onClick={cartclose}
-            className="bg-gray-800 cursor-pointer text-white p-2 rounded flex items-centerm mt-5 gap-4"
-          >
-            close
-          </button>
         </div>
       )}
+      <button
+        onClick={cartclose}
+        className="bg-gray-800 cursor-pointer text-white p-2 rounded flex items-centerm mt-5 gap-4"
+      >
+        close
+      </button>
     </div>
   );
 };
